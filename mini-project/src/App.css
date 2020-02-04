@@ -1,0 +1,332 @@
+/* Body */
+body {
+  background-color: #e5e5e5;
+}
+
+/* NavBar Styling */
+
+.nav-container {
+  position: relative;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px 10px rgba(79, 79, 79, 0.07);
+  z-index: 1;
+}
+.right-content,
+.left-content {
+  width: 50%;
+}
+.left-content {
+  display: flex;
+  margin-left: 30px;
+}
+.logo {
+  width: 110px;
+}
+.search-items {
+  margin-left: 60px;
+  display: flex;
+  align-items: center;
+}
+.search {
+  margin-right: 15px;
+}
+.input-field {
+  border: none;
+}
+.input-field::placeholder {
+  font-size: 12px;
+  color: #979797;
+}
+.profile {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.right-content {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 75px;
+}
+.support,
+.FAQ {
+  padding-right: 10%;
+  font-size: 14px;
+  color: #647787;
+}
+.notification {
+  padding-right: 4%;
+}
+.user {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+  color: #647787;
+}
+.user .name {
+  font-size: 14px;
+}
+.user-info {
+  text-align: right;
+  margin-right: 10px;
+}
+.user .span {
+  font-size: 10px;
+}
+
+/* SideNav Styling */
+.sidenav-container {
+  padding-left: 3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  position: absolute;
+  top: -1px;
+  width: 220px;
+  height: 100%;
+  background-color: #fff;
+}
+button {
+  background-color: #27ae60;
+  border: none;
+}
+.button {
+  text-transform: uppercase;
+  text-align: center;
+  border-radius: 25px;
+  padding: 12px;
+  padding-left: 0;
+  width: 160px;
+  font-size: 12px;
+  color: #fff;
+  font-weight: bold;
+}
+/* .active {
+  border-left: 2px solid#1875f0;
+  background-color: rgba(24, 117, 240, 0.1);
+} */
+.main h5 {
+  font-weight: normal;
+  font-size: 12px;
+  color: #647787;
+}
+.main p {
+  font-size: 12px;
+  color: #647787;
+  display: flex;
+  position: relative;
+}
+.payments h5 {
+  font-weight: normal;
+  font-size: 12px;
+  color: #647787;
+}
+.payments p {
+  font-size: 12px;
+  color: #647787;
+  display: flex;
+}
+.orders h5 {
+  font-weight: normal;
+  font-size: 12px;
+  color: #647787;
+}
+.orders p {
+  font-size: 12px;
+  color: #647787;
+  display: flex;
+}
+.merchant p {
+  font-size: 12px;
+  color: #647787;
+  display: flex;
+}
+
+/* Transaction tabs*/
+
+.trans-container {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  left: 290px;
+  top: 12%;
+  border: 1px solid #fff;
+  background-color: #fff;
+  padding: 10px;
+  width: 220px;
+  height: 35px;
+}
+.trans-container2 {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  left: 545px;
+  top: 12%;
+  border: 1px solid #fff;
+  background-color: #fff;
+  padding: 10px;
+  width: 220px;
+  height: 35px;
+}
+.trans-container3 {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  left: 830px;
+  top: 12%;
+  border: 1px solid #fff;
+  background-color: #fff;
+  padding: 10px;
+  width: 220px;
+  height: 35px;
+}
+.trans-container4 {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  left: 1085px;
+  top: 12%;
+  border: 1px solid #fff;
+  background-color: #fff;
+  padding: 10px;
+  width: 220px;
+  height: 35px;
+}
+.trans-container p,
+.trans-container2 p,
+.trans-container3 p,
+.trans-container4 p {
+  margin: 0;
+  font-size: 12px;
+}
+.value {
+  font-size: 18px;
+  font-weight: bold;
+}
+.graphMini {
+  padding-left: 10px;
+}
+
+/* Graph */
+
+.chart {
+  position: absolute;
+  width: 662px;
+  height: 309px;
+  top: 25%;
+  left: 21.5%;
+  border: 1px solid #fff;
+  background-color: #fff;
+}
+.graph {
+  width: 680px;
+  height: 150px;
+  margin-top: 100px;
+}
+.date {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+h4 {
+  margin-left: 5%;
+  font-size: 18px;
+}
+.date p {
+  margin-left: 30%;
+  border: 1px solid #dde0e3;
+  padding: 5px;
+  border-radius: 4.25px;
+  font-size: 12px;
+  color: #7f8fa4;
+  display: flex;
+  align-items: center;
+}
+.down {
+  margin-left: 20px;
+}
+.date div {
+  margin-left: 8%;
+  display: flex;
+  align-items: center;
+}
+.left,
+.right {
+  border: 1px solid #ced0da;
+  border-radius: 4px;
+  background: linear-gradient(0deg, #f2f4f7 0%, #ffffff 100%);
+}
+.left {
+  margin-right: 10px;
+}
+.months {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+}
+.month {
+  border-right: 1px solid rgb(207, 232, 251, 0.5);
+  height: 220px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.month:last-child {
+  border-right: none;
+}
+
+/* Order styling */
+
+.order {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  left: 965px;
+  padding-left: 1%;
+  top: 25%;
+  border: 1px solid #fff;
+  background-color: #fff;
+  width: 360px;
+  height: 151px;
+}
+.payment {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  left: 965px;
+  padding-left: 1%;
+  top: 50.1%;
+  border: 1px solid #fff;
+  background-color: #fff;
+  width: 360px;
+  height: 151px;
+}
+.order h4,
+.payment h4 {
+  font-size: 14px;
+  color: #262626;
+  margin: 5px 0 2px 2px;
+}
+.order p,
+.payment p {
+  font-size: 14px;
+  color: #262626;
+  margin: 5px 0 12px 2px;
+}
+.bar {
+  width: 295px;
+}
+.spanOne {
+  color: #fdc203;
+}
+.spanTwo {
+  color: #27ae60;
+}
+.spanThree {
+  color: rgb(16, 16, 160);
+}
