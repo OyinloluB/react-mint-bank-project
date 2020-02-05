@@ -13,6 +13,7 @@ class PaymentNav extends Component {
           <p className="item-number">
             20&nbsp;
             <img src={Down} className="arrow-down" alt="down" />
+            &nbsp;&nbsp;&nbsp;&nbsp;<span>out of 500 payments</span>
           </p>
           <form className="search-content">
             <img src={Search} className="search-icon" alt="search" />

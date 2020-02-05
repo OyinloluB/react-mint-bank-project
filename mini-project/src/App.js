@@ -7,7 +7,7 @@ import SideNav from "./Components/SideNav";
 import TransValue from "./Components/TransValue";
 import Chart from "./Components/Chart";
 import Payment from "./Components/Payments";
-// import PaymentRow from "./Components/PaymentRow";
+import Pagination from "./Components/Pagination";
 
 class App extends Component {
   state = {
@@ -44,6 +44,7 @@ class App extends Component {
         />
         <Chart />
         <Payment />
+        <Pagination />
       </div>
     );
   }
