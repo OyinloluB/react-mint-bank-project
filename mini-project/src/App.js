@@ -6,6 +6,7 @@ import NavBar from "./Components/NavBar";
 import SideNav from "./Components/SideNav";
 import TransValue from "./Components/TransValue";
 import Chart from "./Components/Chart";
+import Payment from "./Components/Payments";
 // import PaymentRow from "./Components/PaymentRow";
 
 class App extends Component {
@@ -42,6 +43,7 @@ class App extends Component {
           value={this.state.valueTwo}
         />
         <Chart />
+        <Payment />
       </div>
     );
   }

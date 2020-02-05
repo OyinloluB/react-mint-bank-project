@@ -86,9 +86,9 @@ body {
   justify-content: center;
   align-items: flex-start;
   position: absolute;
-  top: -1px;
+  top: -400px;
   width: 220px;
-  height: 100%;
+  height: 1500px;
   background-color: #fff;
 }
 button {
@@ -329,4 +329,134 @@ h4 {
 }
 .spanThree {
   color: rgb(16, 16, 160);
+}
+
+/* Payment Records */
+.paymentnav-container {
+  position: absolute;
+  top: 75%;
+  left: 290px;
+}
+.outside-column {
+  margin-left: -5px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+.outside-column .showing {
+  margin-right: 20px;
+}
+.item-number {
+  display: flex;
+  align-items: center;
+  margin-right: 55px;
+  color: #1875f0;
+}
+.search-content {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 600px;
+}
+.search-content::after {
+  content: "";
+  height: 1px;
+  width: 50%;
+  position: absolute;
+  top: 20px;
+  background-color: #787878;
+}
+.search-input {
+  border: none;
+  background-color: #e5e5e5;
+}
+.search-input::placeholder {
+  font-size: 11px;
+  color: #787878;
+}
+.search-icon {
+  margin-right: 5px;
+}
+.show {
+  font-weight: bold;
+  position: relative;
+}
+.dropdown-lists {
+  list-style: none;
+  position: absolute;
+  box-shadow: 3px 3px 3px 3px #adadad;
+  z-index: 1;
+  border: 1px solid #fff;
+  background-color: #fff;
+  border-radius: 2px 2px 6px 6px;
+  width: 150px;
+  left: 820px;
+  top: 73%;
+}
+.dropdown-lists li {
+  padding: 3px;
+}
+.dropdown-arrow {
+  margin-left: 110px;
+}
+.toggle {
+  background-color: #e5e5e5;
+}
+.active {
+  background-color: #f4f4f4;
+}
+
+/* Payment Rows */
+
+.paymentrow-container {
+  position: absolute;
+  top: 95%;
+  left: 290px;
+}
+table {
+  border: 1px solid #eaeef0;
+  width: 77vw;
+  background-color: #fff;
+  border-collapse: collapse;
+}
+table,
+td {
+  border-bottom: 1px solid #cccfd4;
+}
+th {
+  text-align: left;
+  padding: 8px;
+  font-size: 14px;
+  color: #7f8fa4;
+  font-weight: normal;
+  background-color: #eaeef0;
+  border: none;
+}
+td {
+  padding: 15px;
+  font-size: 14px;
+  color: #7f8fa4;
+}
+.item-content {
+  color: #414042;
+}
+.item-content span {
+  border: 1px solid #7f8fa4;
+  background-color: #7f8fa4;
+  font-size: 12px;
+  color: #fff;
+  padding: 5px;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+.arrow-row {
+  width: 10px;
+  height: 10px;
+}
+.Reconcilled {
+  color: #27ae60;
+}
+.Pending {
+  color: #ebc315;
 }
