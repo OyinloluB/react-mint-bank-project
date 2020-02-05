@@ -1,7 +1,7 @@
 # Netlify configuration file
 [build]
-  publish = "build"
-  command = "npm build"
+  publish = "build/"
+  command = "npm run build"
 
 # We're a SPA, so rewrite everything to index.html
 [[redirects]]
