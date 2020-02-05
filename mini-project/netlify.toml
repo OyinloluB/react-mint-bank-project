@@ -1,0 +1,10 @@
+# Netlify configuration file
+[build]
+  publish = "build"
+  command = "npm build"
+
+# We're a SPA, so rewrite everything to index.html
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
